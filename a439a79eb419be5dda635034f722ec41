@@ -1,0 +1,695 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+
+<head>
+
+  <!-- Basic -->
+  <title>Himachal's First & Only Telecom(Commercial & Military Mil Grade) Research and Development Company, Original Equipment Manufacturer OEM</title>
+
+  <meta name="description" content="Make In India: Vihaas is one of the very few indigenous OEMs of Telecom Products with all it's products designed & developed locally in India. We develop & manufacture
+	      both commercial as well as MIL grade communication products.">
+  <meta name="keywords" content="Telecom, Mil, OEM, R&D, Research and Development, PBX, Media Gateways, Softswitch, Defense">
+
+  <!-- Define Charset -->
+  <meta charset="utf-8">
+
+  <!-- Responsive Metatag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#0000FF">
+ 
+ <!-- Page Description and Author -->
+  <meta name="author" content="Vihaas Design Technologies">
+
+  <!-- Bootstrap CSS  -->
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">
+
+  <!-- Revolution Slider -->
+  <link rel="stylesheet" href="css/settings.css" type="text/css" media="screen">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+
+  <!-- Slicknav -->
+  <link rel="stylesheet" type="text/css" href="css/slicknav.css" media="screen">
+
+  <!-- Margo CSS Styles  -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+
+  <!-- Responsive CSS Styles  -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+
+  <!-- Css3 Transitions Styles  -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+
+  <!-- Color Defult -->
+  <link rel="stylesheet" type="text/css" href="css/colors/red.css" media="screen" />
+
+  <!-- Margo JS  -->
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/jquery.migrate.js"></script>
+  <script type="text/javascript" src="js/modernizrr.js"></script>
+  <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="js/jquery.appear.js"></script>
+  <script type="text/javascript" src="js/count-to.js"></script>
+  <script type="text/javascript" src="js/jquery.textillate.js"></script>
+  <script type="text/javascript" src="js/jquery.lettering.js"></script>
+  <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+  <script type="text/javascript" src="js/smooth-scroll.js"></script>
+  <script type="text/javascript" src="js/skrollr.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax.js"></script>
+  <script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+  <script type="text/javascript" src="js/jquery.slicknav.js"></script>    
+ 
+  <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+
+<style>
+      .blink {
+      animation: blinker 1s linear infinite;
+      color: #bb0a1e;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+      .blink-one {
+      animation: blinker-one 2s linear infinite;
+      }
+      @keyframes blinker-one {  
+      0% { opacity: 0; }
+      }
+      .blink-two {
+      animation: blinker-two 2.5s linear infinite;
+      color: #006400;
+      font-size: 32px;
+      font-weight: bold;
+      font-family: sans-serif;	  
+      }
+      @keyframes blinker-two {  
+      100% { opacity: 0; }
+      }
+    </style>
+	
+<body>
+
+  <!-- Full Body Container -->
+  <div id="container">
+
+    <!-- Start Header Section -->
+    <header class="clearfix">
+      <!-- Start Top Bar -->
+      <div class="top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-20">
+              <!-- Start Contact Info -->
+              <ul class="contact-details">
+                <!-- <li><a href="#"><i class="fa fa-map-marker"></i> </a>
+                </li> -->
+                <li><a href="#"><i class="fa fa-envelope-o"></i> info@vihaasdtech.com </a> 
+                </li>
+
+<!--				<h2>class="blink"<font color="red"> class="blink">!!! CORONAVIRUS:  STAY APART ... STAY UNITED !!! </h4> -->
+ 
+ <!--li><a href="#"><i class="fa fa-phone"></i> </a>
+                </li-->
+              </ul>
+              <!-- End Contact Info -->
+            </div>
+
+
+            <!-- .col-md-6 -->
+            <div class="col-md-5">
+              <!-- Start Social Links -->
+              <ul class="social-list">
+                <!--li>
+                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href=""><i class="fa fa-facebook"></i></a>
+                </li-->
+                <!--<li>
+                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                </li> -->
+               <!-- <li>
+                  <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
+                </li> -->
+                
+                <!--li>
+                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="https://in.linkedin.com/company/apeiron-innovations-pvt-ltd"><i class="fa fa-linkedin"></i></a>
+                </li-->
+                
+                <!--li>
+                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="https://www.instagram.com/apeiron_innovations/"><i class="fa fa-instagram"></i></a>
+                </li--> 
+                <!--
+                <li>
+                  <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="#"><i class="fa fa-skype"></i></a>
+                </li>
+-->
+
+              </ul>
+              <!-- End Social Links -->
+            </div>
+            <!-- .col-md-6 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .top-bar -->
+      <!-- End Top Bar -->
+
+				<h1 class="blink-two"><center>FIGHT CORONAVIRUS:  STAYING APART  IS THE BEST WAY TO STAY UNITED </center></h1>
+				<h4><center><a href=""style="color:blue"> Vihaas family have contributed by donating their one month's salaries to PM Cares. We request you to do your bit as well for your fellow Homo Sapiens!</center></h4>
+				<hr>  </hr>
+
+      <!-- Start  Logo & Naviagtion  -->
+      <div class="navbar navbar-default navbar-top" role="navigation" data-spy="affix" data-offset-top="1">
+        <div class="container">
+          <div class="navbar-header">
+            <!-- Stat Toggle Nav Link For Mobiles -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <i class="fa fa-bars"></i>
+            </button>
+            <!-- End Toggle Nav Link For Mobiles -->
+
+           <a class="navbar-brand" href="Home">
+		   <img style="margin-right:200px;margin-bottom:1px;" class="alignleft" src="img/iso1.png">
+               </a>			
+			
+            <a class="navbar-brand" href="Home">
+              <img alt="" src="img/logo8.png" class="">
+            </a>
+		</div>
+
+ 
+ 
+     
+ 
+
+ 
+              <div class="navbar-collapse collapse">
+            <!-- Stat Search -->
+            <!-- <div class="search-side">
+              <a class="show-search"><i class="fa fa-search"></i></a>
+              <div class="search-form">
+                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
+                  <input type="text" value="" name="s" id="s" placeholder="Search the site...">
+                </form>
+              </div>
+            </div> -->
+            <!-- End Search -->
+            <!-- Start Navigation List -->
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="active" href="Home">Home</a>
+              </li>
+              <li>
+              <li>
+                <a href="About-Us">About Us</a>
+              </li>
+              <li>
+                <a href="Products">Products</a>
+              </li>
+              <li>
+                <a href="Services">Services</a>
+              </li>
+               <li>
+		<a href="Contact">Contact</a>
+              </li>
+            </ul>
+            <!-- End Navigation List -->
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="wpb-mobile-menu">
+          <li>
+            <a class="active" href="Home">Home</a>
+          </li>
+          <li>
+            <a href="About-Us">About Us</a>
+          </li>
+          <li>
+            <a href="Products">Products</a>
+          </li>
+          <li>
+            <a href="Services">Services</a>
+          </li>
+
+          <li>
+            <a href="Contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </div>
+      <!-- End Header Logo & Naviagtion -->
+    </header>
+    <!-- End Header Section -->
+ 
+ 
+  
+
+    <!-- Start Services Section -->
+    <div class="section service">
+      <div class="container">
+        <div class="row">
+
+          <h1 class="text-center animated2">Features</h1>
+
+          <!-- Start Service Icon 1 -->
+          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="01">
+            <div class="service-icon">
+              <i class="fa fa-power-off icon-large"></i>
+            </div>
+            <div class="service-content">
+              <h4 ><strong>Power Efficient</strong></h4>
+              <p>Use electricity in most efficient way.</p>
+            </div>
+          </div>
+          <!-- End Service Icon 1 -->
+
+          <!-- Start Service Icon 2 -->
+          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="02">
+            <div class="service-icon">
+              <i class="fa fa-user icon-large"></i>
+            </div>
+            <div class="service-content">
+              <h4><strong>Customer Oriented</strong></h4>
+              <p>Comprehensive understanding of customer needs.</p>
+            </div>
+          </div>
+          <!-- End Service Icon 2 -->
+
+          <!-- Start Service Icon 3 -->
+          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="03">
+            <div class="service-icon">
+              <i class="fa fa-pencil-square-o icon-large"></i>
+            </div>
+            <div class="service-content">
+              <h4><strong>Easy to Customize</strong></h4>
+              <p>Add more features without replacing your old system.</p>
+            </div>
+          </div>
+          <!-- End Service Icon 3 -->
+
+          <!-- Start Service Icon 4 -->
+          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="04">
+            <div class="service-icon">
+              <i class="fa fa-inr icon-large"></i>
+            </div>
+            <div class="service-content">
+              <h4><strong>Low Cost</strong></h4>
+              <p>Devices at lowest cost that fits in your budget.</p>
+            </div>
+          </div>
+          <!-- End Service Icon 4 -->
+
+          <!-- Start Service Icon 5 -->
+          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="05">
+            <div class="service-icon">
+              <i class="fa fa-desktop icon-large"></i>
+            </div>
+            <div class="service-content">
+              <h4><strong>Creative Design</strong></h4>
+              <p>Easy and fast maintenance services.</p>
+            </div>
+          </div>
+          <!-- End Service Icon 5 -->
+
+          <!-- Start Service Icon 6 -->
+          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="06">
+            <div class="service-icon">
+              <i class="fa fa-cloud icon-large"></i>
+            </div>
+            <div class="service-content">
+              <h4><strong>Quality and Reliability</strong></h4>
+              <p>Strictly maintain the international quality standards.</p>
+            </div>
+          </div>
+          <!-- End Service Icon 6 -->
+        </div>
+        <!-- .row -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- End Services Section -->
+
+
+    <!-- Start Portfolio Section -->
+    <div class="section full-width-portfolio" style="border-top:0; border-bottom:0; background:#fff;">
+
+      <!-- Start Big Heading -->
+      <div class="big-title text-center" data-animation="fadeInDown" data-animation-delay="01">
+        <h1><font size="7">Our Areas of Expertise</font></h1>
+		
+      </div>
+      <!-- End Big Heading -->
+  
+      <p class="text-center">“To Design and Develop unique products and systems by making <br>
+         use of the state of art technologies”.</p>
+
+
+      <!-- Start Recent Projects Carousel -->
+      <ul id="portfolio-list" data-animated="fadeIn">
+        <li>
+          <img src="img/products/robotic.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">ROBOTICS</span>
+            
+          </div>
+          <div class="icon-list">
+            <a class="link" href="Contact"><i class="fa fa-link"></i></a>
+            <a class="zoom lightbox" href="img/products/robotic.jpg"><i class="fa fa-search-plus"></i></a>
+          </div> 
+        </li>
+        <li>
+          <img src="img/products/iot.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">IOT</span>
+            
+          </div>
+          <div class="icon-list">
+            <a class="link" href="Contact"><i class="fa fa-link"></i></a>
+            <a class="zoom lightbox" href="img/products/iot.jpg"><i class="fa fa-search-plus"></i></a>
+          </div> 
+        </li>
+        <li>
+          <img src="img/products/wired.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Wired Communication</span>
+            
+          </div>
+          <div class="icon-list">
+            <a class="link" href="Contact"><i class="fa fa-link"></i></a>
+            <a class="zoom lightbox" href="img/products/wired.jpg"><i class="fa fa-search-plus"></i></a>
+          </div> 
+        </li>
+        <li>
+          <img src="img/products/wireless.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Wireless</span>
+            
+          </div>
+          <div class="icon-list">
+            <a class="link" href="Contact"><i class="fa fa-link"></i></a>
+            <a class="zoom lightbox" href="img/products/wireless.jpg"><i class="fa fa-search-plus"></i></a>
+          </div> 
+        </li>
+        <li>
+          <img src="img/products/power elec.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Power Electronics</span>
+            
+          </div>
+          <div class="icon-list">
+            <a class="link" href="Contact"><i class="fa fa-link"></i></a>
+            <a class="zoom lightbox" href="img/products/power elec.jpg"><i class="fa fa-search-plus"></i></a>
+          </div> 
+        </li>
+        <li>
+          <img src="img/products/railway.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Railway Communication System</span>
+            
+          </div>
+          <div class="icon-list">
+            <a class="link" href="Contact"><i class="fa fa-link"></i></a>
+            <a class="zoom lightbox" href="img/products/railway.jpg"><i class="fa fa-search-plus"></i></a>
+          </div> 
+        </li>
+        <li>
+          <img src="img/products/ipure1.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">iPureair</span>
+            
+          </div>
+          <div class="icon-list">
+            <a class="link" href="Contact"><i class="fa fa-link"></i></a>
+            <a class="zoom lightbox" href="img/products/ipure1.jpg"><i class="fa fa-search-plus"></i></a>
+          </div> 
+        </li>
+     
+      </ul>
+
+      <!-- End Recent Projects Carousel -->
+
+
+    </div>
+    <!-- End Portfolio Section -->
+
+
+    <!-- Start Testimonials Section -->
+    <div>
+
+    <!-- End Testimonials Section -->
+
+
+    <!-- End Team Member Section -->
+
+
+    <div id="parallax-one"  class="parallax" style="background-image:url(img/homepage/technology.jpg);">
+      <div class="parallax-text-container-1">
+        <div class="parallax-text-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="counter-item">
+                  <i class="fa fa-check"></i>
+                  <div class="timer" id="item1" data-to="229" data-speed="5000"></div>
+                  <h5>Projects Done</h5>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="counter-item">
+                    <i class="fa fa-tasks"></i>
+                  <div class="timer" id="item2" data-to="23" data-speed="5000"></div>
+                  <h5>Projects Running</h5>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="counter-item">
+                  <i class="fa fa-user"></i>
+                  <div class="timer" id="item3" data-to="21" data-speed="5000"></div>
+                  <h5>Our Clients</h5>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- Start Client/Partner Section -->
+    <div class="partner">
+      <div class="container">
+        <div class="row">
+
+          <!-- Start Big Heading -->
+          <!--div class="big-title text-center">
+            <h1>Our Happy <strong>Clients</strong></h1>
+            <p class="title-desc">Partners We Work With</p>
+          </div>
+          <!-- End Big Heading -->
+
+          <!--Start Clients Carousel-->
+          <!--div class="our-clients">
+            <div class="clients-carousel custom-carousel touch-carousel navigation-3" data-appeared-items="5" data-navigation="true">
+
+              <!-- Client 1 -->
+              <!--div class="client-item item">
+                <a href="#"><img src="img/clients/client-1.jpg" alt="" /></a>
+              </div>
+              <!-- Client 2 -->
+              <!--div class="client-item item">
+                <a href="#"><img src="img/clients/client-2.jpg" alt="" /></a>
+              </div>
+              <!-- Client 3 -->
+              <!--div class="client-item item">
+                <a href="#"><img src="img/clients/client-3.jpg" alt="" /></a>
+              </div>
+              <!-- Client 4 -->
+              <!--div class="client-item item">
+                <a href="#"><img src="img/clients/client-4.jpg" alt="" /></a>
+              </div>
+              <!-- Client 5 -->
+              <!--div class="client-item item">
+                <a href="#"><img src="img/clients/client-5.jpg" alt="" /></a>
+              </div>
+              <!-- Client 6 -->
+              <!--div class="client-item item">
+                <a href="#"><img src="img/clients/client-6.jpg" alt="" /></a>
+              </div>
+              
+            </div>
+          </div>
+          <!-- End Clients Carousel -->
+        </div>
+        <!-- .row -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- End Client/Partner Section -->
+<!-- Start Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="row footer-widgets">
+
+
+          <!-- Start Subscribe & Social Links Widget -->
+          <div class="col-md-3 col-xs-12">
+            <div class="footer-widget mail-subscribe-widget">
+              <h4>Get in touch with us<span class="head-line"></span></h4>
+              <p>Join us to stay up to date and get notified about our new products !!</p>
+              <form class="subscribe">
+                <input type="text" placeholder="mail@example.com">
+                <input type="submit" class="btn-system" value="Send">
+              </form>
+            </div>
+            <div class="social-widget">
+              <h4><span class="head-line"></span></h4>
+              <ul class="social-icons">
+                <!--li>
+                  <a class="facebook" href="https://www.facebook.com/apeironinnovations/"><i class="fa fa-facebook"></i></a>
+                </li-->
+                <!--li>
+                    <a class="linkdin" href="https://in.linkedin.com/company/apeiron-innovations-pvt-ltd"><i class="fa fa-linkedin"></i></a>
+                  </li-->
+                  
+                <!-- <li>
+                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                </li> -->
+                
+                
+                <!--li>
+                  <a class="instgram" href="https://www.instagram.com/apeiron_innovations/"><i class="fa fa-instagram"></i></a>
+                </li-->
+                <!--
+                <li>
+                  <a class="skype" href="#"><i class="fa fa-skype"></i></a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Subscribe & Social Links Widget -->
+
+
+          <!-- Start Twitter Widget -->
+          <div class="col-md-3 col-xs-12">
+            <div class="footer-widget twitter-widget">
+              <h4>Corporate Information<span class="head-line"></span></h4>
+              <ul>
+                <li>
+                  <p><a href="Home">Home</a></p>
+                </li>
+                <li>
+                    <p><a href="About-Us">About Us</a></p>
+                </li>
+                <li>
+                    <p><a href="Products">Products</a></p>
+                </li>
+                <li>
+                    <p><a href="Services">Services</a></p>
+                </li>
+                <li>
+                    <p><a href="Contact">Contact</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Twitter Widget -->
+
+
+          <!-- Start Flickr Widget -->
+          
+          <!-- .col-md-3 -->
+          <!-- End Flickr Widget -->
+
+
+          <!-- Start Contact Widget -->
+          <div class="col-md-3 col-xs-12">
+            <div class="footer-widget contact-widget">
+              <h4>Reach Us<span class="head-line"></span> <!--<img src="img/logo.jpg" class="img-responsive" alt="Footer Logo" /> --></h4>
+              <p>We are dedicated to the satisfaction of our customers. Have a question, feel free to contact us!</p>
+               <ul>
+                <strong>Email :</strong> <a href=""style="color:orange;">info@vihaasdtech.com</a>
+                <br><strong>Website :</strong> <a href="https://www.vihaasdtech.com"style="color:red;">VihaasDT@Google</a>
+                <br><strong>Linkedin :</strong> <a href="https://in.linkedin.com/company/vihaasdtech"style="color:green;">VihaasDT@Linkedin</a>
+                <br><strong>Facebook :</strong> <a href="https://www.facebook.com/vihaasdesigntech/"style="color:pink;">VihaasDT@Facebook</a>
+				 <br><strong>Instagram :</strong> <a href="https://www.instagram.com/vihaasdesigntechnologies/"style="color:gold;">VihaasDT@Instagram</a>
+              </ul>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Contact Widget -->
+        </div>
+        <!-- .row -->
+
+        <!-- Start Copyright -->
+        <div class="copyright-section">
+          <div class="row">
+            <div class="col-md-20">
+              <p>Copyright © 2017-2022  - Designed &amp; Developed by <a href="">Vihaas Design Technologies</a> 
+<!--					<a target="_blank"> <img style="float:right" src="https://hitwebcounter.com/counter/counter.php?page=7217873&style=0009&nbdigits=6&type=page&initCount=9000" title="Visitors" Alt="PHP Hits Count"   border="0" ></a> -->
+			  </p>
+            </div>
+            <!-- .col-md-6 -->
+            <div class="col-md-6">
+              <ul class="footer-nav">
+                <!-- <li><a href="">Sitemap</a>
+                </li>
+                <li><a href="#">Privacy Policy</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li> -->
+              </ul>
+            </div>
+            <!-- .col-md-6 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- End Copyright -->
+
+<!-- hitwebcounter Code START -->
+              
+
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+
+  </div>
+  <!-- End Full Body Container -->
+
+  <!-- Go To Top Link -->
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <div id="loader">
+    <div class="spinner">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

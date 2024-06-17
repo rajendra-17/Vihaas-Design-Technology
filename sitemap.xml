@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.vihaasdtech.com/</loc>
+  <lastmod>2020-09-30T07:18:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.vihaasdtech.com/Home</loc>
+  <lastmod>2020-09-30T07:18:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vihaasdtech.com/About-Us</loc>
+  <lastmod>2020-09-30T07:18:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vihaasdtech.com/Products</loc>
+  <lastmod>2020-09-30T07:18:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vihaasdtech.com/Services</loc>
+  <lastmod>2020-09-30T07:18:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vihaasdtech.com/Contact</loc>
+  <lastmod>2020-09-30T07:18:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.vihaasdtech.com/iPureair/iPureair.html</loc>
+  <lastmod>2020-04-17T20:27:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.vihaasdtech.com/Home.html</loc>
+  <lastmod>2020-09-30T07:18:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
