@@ -1,0 +1,33 @@
+[22-Dec-2023 02:05:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function 5â?9Rbo9f56¹mgy9iee7fa1İ`Ûb7-4”7e,©7=H":DÜ©2d2™?6mmaò9ao©–»×-¯f25"d7dÙ×b˜ß22’299¢d2hõ6©gaxime•5vc7-a‚7-8i:-å7b˜-22Òß9’bd2mu6iÍÁx9kee9Ök=-`f27í=d7'97b892b292¢k6f5†i-ÑHYŞeµ9f]7)a–âÆôm÷±)·b8-2Ì(Â2R’d2mÖimŒ{'a¥e9fa7-al27ı4e÷a’97b8() in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php:106
+Stack trace:
+#0 /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php(121): uk11(Array, Array)
+#1 {main}
+  thrown in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php on line 106
+[22-Dec-2023 02:07:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function ÑaòÇ-4d7cê1Çf(=2bâ92id2fÅ6ÔqP9oedÙbj7-a™D7-4×Ûa½Ğ™5-22b=92bÄòb5&n~*‰kg5?fa’-dÒ2çÍ4d7a'3—ÌH-22eÒ9}bÄòÌ5:n{Zaee)f‘7-±f57-4c€‘,9‡24-02mâ52bd2f;6yZ9±ei9fa7-<f?7 4aó‘-ù9’8İ=İhÂø?md2fş6oyjÙÁee9fa>a6224„7Š(@HbÈ-2Â‚:	2md2j55n‰„•aÅeia&afr74d8a-Ib¸-2b23Âb¤>f:6`yZ1a•ÅÙfaÇGaÖ2÷-4d7Ñ-¹‡b8-<3bÒ92Âd=h56nsVyaeÅ9!‡-aö2§-4k7h-ùW²6âbR9Öbd2f5véZ?ajeÉla÷() in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php:106
+Stack trace:
+#0 /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php(121): uk11(Array, Array)
+#1 {main}
+  thrown in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php on line 106
+[22-Dec-2023 02:09:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function <‡Û8'23b2¸²m`2iå9R	roDP9lje9aq7M!fB:-4d7ı9Wj8"2Ie892cd9f58\‚npoIP9qee9¦a7üaf?7-4`7a-95d8->h2©2bd=fE^Ie}o·9ggÕ<fa7-a627-ÄkG-9?H4¢àb2;2b´êl5æQIŞræCY9ahlÙfgg-ÿf2:-4T7c-97b1-22;4lj25öG“p`JP;Áee9&[7•±f27\†ûwl-9×‚1(24cÑ2gdÒfE[TIn´aIP4ÑÅeùfaçaöÂ1-;dÌh'iÇ¢8-22l2YRnÔRæ57‘On‹_@P=ajeöe7 `f27-ôÔ7n“¹6¢=2hiß62ÒÄ2F9¶UlneK\0qeeÉÆa7-kf27-¸2a-I7a8m62b292bj2f55Qã‚{OCP9aaema7-af2×æ4j7ym97â8-5Âb294÷7–¥9QIn‚cIp91nE®f÷}nf7-Îd7A(õ·Ò¯-:3c292Òt4v5Ö\ù`u_IP7aµ¥ÙkÁÉ-¡Æ27-?d7m-94bÈ<2b’É<bd2f5ÆWI>`oIP4j©u9ÙnÂ-TØ2÷/4d¿2xbÃ-22j8™;’d<ö;6QgèMPéaee9O×}af2=-4d;c-yb8.?2() in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php:106
+Stack trace:
+#0 /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php(121): uk11(Array, Array)
+#1 {main}
+  thrown in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php on line 106
+[22-Dec-2023 02:09:17 America/Boise] PHP Fatal error:  Cannot redeclare ll10() (previously declared in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php:82) in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/mwniibot.php on line 82
+[23-Dec-2023 00:44:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function 
+h51-4/cÂ-ùn1-82õ%crçedaõšUãoc1‡a12-458$4jn2-9…u1½;B˜em~§%bQ8ÅUÓocÁX7gñ®2-4c]6-4Ac”­9eµj92µee2×-ba=7U“q¶Ğ87g;0â-4c5-5aÛÂ-9ze3=9;een2<eba¸{e() in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php:93
+Stack trace:
+#0 /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php(104): xm11(Array, Array)
+#1 {main}
+  thrown in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php on line 93
+[23-Dec-2023 00:45:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function 9ee"9‚f·ã2_…ba85JE¢GRã157Ñ&02Â^•1-;b½‰he1Í><å…nZ:‰òaˆ5JJiERƒá8<a!02ô<c?1-4aÃ’·9ee0±92_ecr×•b55PiKRcÑø4a10<DÓ
+4&tùf2İ)eµ1'ù2lec27E¡8JAeKRc1Å7a19Ô,4Š5A};eo²-9ee12"kÕÊ27b‘85ÚLdKc12‡a>02‘4cÔM:hóû=9Ã…Q-9>ee¾275Òa85JAf@R187a1@b-4c?-4'o2ie-e-éjia67ebÃ85DiKYcÍ5‡±20‚-4c…=½4fi75b¥6&9eec27Åba¸5G\YKRcĞ87Á10:() in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php:93
+Stack trace:
+#0 /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php(104): xm11(Array, Array)
+#1 {main}
+  thrown in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php on line 93
+[23-Dec-2023 00:45:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function Hb91İ=hmâ-9eeA-92iej>—EbaX51MLQc187a106:Ìå1-?ac’-9ieQÍ”2e327ebÁ8E;QM]Qa1?7a1024c81-4/c²-9ee1-9:kƒ6×Æb˜Õ¿QNQ() in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php:93
+Stack trace:
+#0 /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php(104): xm11(Array, Array)
+#1 {main}
+  thrown in /home2/vihaasdt/public_html/naipunayam/html_coming_soon/img/admin.php on line 93
