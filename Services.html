@@ -23,13 +23,13 @@
   <meta name="author" content="Vihaas Design Technologies">
 
   <!-- Bootstrap CSS  -->
-  <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">
+
 
   <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
 
   <!-- Slicknav -->
-  <link rel="stylesheet" type="text/css" href="css/slicknav.css" media="screen">
+ 
 
   <!-- Margo CSS Styles  -->
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
@@ -364,127 +364,93 @@
 
     <header class="clearfix">
       <!-- Start Top Bar -->
-
-
+    
+    
       <!-- Start  Logo & Naviagtion  -->
       <div class="navbar navbar-default navbar-top" role="navigation" data-spy="affix" data-offset-top="1"
-        style="  height: 11%;">
+        style="  height: 15%;">
         <div class="container">
           <div class="navbar-header">
             <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button" class="button" id="menu-button">
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-
-
-
-            <a class="navbar-brand" href="Home">
-              <img alt="" src="img/logo8.png" class="" style="position: fixed ; left: 80px;">
-            </a>
-
-            <a class="navbar-brand" href="Home">
-              <img style="margin-right: 200px;
-                margin-bottom: 1px;
-                height: 7rem;
-                left: 470px;
-                position: fixed;" class="alignleft" src="img/iso.png">
-            </a>
-
-            <!-- <a class="navbar-brand" href="Home">
-              <img style="margin-right: 200px;
-                  margin-bottom: 1px;
-                  height: 7rem;
-                  position: fixed;
-                  right: 905px;
-                  top: 45px;" class="alignleft" src="img/flag.png">
-            </a> -->
-
-
-
+    
+    
+            <div class="logo">
+              <a class="image-link" href="/Home.html">
+                <img alt="" src="img/logo8.png">
+              </a>
+            </div>
+            <!--  here -->
+            <div class="navbar-collapse collapse navi">
+    
+              <ul class="nav navbar-nav navbar-right">
+                <li><a  href="/Home.html">Home</a></li>
+                <li><a href="/About-Us.html">About Us</a></li>
+                <li><a href="/Products.html">Products</a> </li>
+                <li><a class="active" href="/Services.html">Services</a></li>
+                <li><a href="/Contact.html">Contact</a> </li>
+              </ul>
+    
+            </div>
+            <div class="iso">
+              <a class="image-link" href="/Home.html">
+                <img class="inner-image" src="img/iso.png">
+              </a>
+            </div>
+    
+    
+            <div class="flag">
+              <a class="image-link" href="Home">
+                <img class="inner-image" src="img/flag.png">
+              </a>
+            </div>
+            <div class="makeinindia">
+              <a class="image-link" href="Home">
+                <img class="inner-image" src="img/make in india.png">
+              </a>
+            </div>
+    
+    
           </div>
-
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right" style="left: 770px;">
-              <li>
-                <a href="Home">Home</a>
-              </li>
-              <li>
-              <li>
-                <a href="About-Us">About Us</a>
-              </li>
-              <li>
-                <a href="Products">Products</a>
-              </li>
-              <li>
-                <a class="active" href="Services">Services</a>
-              </li>
-              <li>
-                <a href="Contact">Contact</a>
-              </li>
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-          <div>
-            <a class="navbar-brand" href="Home">
-              <img style="margin-right: 135px;
-              margin-bottom: 1px;
-              height: 7rem;
-              position: fixed;
-              right: 275px;
-              top: 27px;" class="alignleft" src="img/flag.png">
-            </a>
-          </div>
-          <div>
-            <a class="navbar-brand" href="Home">
-              <img style="margin-right: 185px;
-              margin-bottom: 1px;
-              height: 7rem;
-              position: fixed;
-              right: 125px;
-              top: 30px;" class="alignleft" src="img/make in india.png">
-            </a>
-            <div class="blink" style="width: 248px;
-            height: 7rem;
-            padding: 2px;
-            text-align: center;
-            line-height: 50px;
-            position: relative;
-            left: 1210px;
-            margin-top: -48px;"><span style="font-size: 17px; font-weight: bolder;
-		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-		color: rgb(255, 108, 10);
-		animation: blink 1s linear infinite;">A Make in India Initiative</span></div>
-
-          </div>
-
+    
+    
         </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a href="Home">Home</a>
-          </li>
-          <li>
-            <a href="About-Us">About Us</a>
-          </li>
-          <li>
-            <a href="Products">Products</a>
-          </li>
-          <li>
-            <a class="active" href="Services">Services</a>
-          </li>
-
-          <li>
-            <a href="Contact">Contact</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
+    
       </div>
-
-
+    
+    
+      </div>
+    
+      </div>
+    
+    
+    
+      </div>
+      </div>
+      <!-- Mobile Menu Start -->
+    
+      <!-- Mobile Menu End -->
+    
       <!-- End Header Logo & Naviagtion -->
+    
     </header>
+    <ul class="mobile-menu" id="mobile-menu">
+      <li><a  href="/Home.html">Home</a></li>
+      <li><a href="/About-Us.html">About Us</a></li>
+      <li><a href="/Products.html">Products</a> </li>
+      <li><a class="active" href="/Services.html">Services</a></li>
+      <li><a href="/Contact.html">Contact</a> </li>
+    </ul>
+    <script>
+      // JavaScript to toggle the mobile menu
+      document.getElementById('menu-button').addEventListener('click', function () {
+        var mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('show');
+      });
+    </script>
     <!-- End Header Section -->
 
 
@@ -515,56 +481,72 @@
         <div class="page-content">
 
 
-          <div class="row">
+          <div class="row1">
 
             <!-- Start Image Service Box 1 -->
             <div class="col-md-4 image-service-box service-card">
               <img class="img-thumbnail" src="img/services/design.jpg" alt="" />
-              <h3><a href="" style="color:firebrick">Product Design</a></h3>
+              <div class="box1">
+              <h3><a href="#" style="color:firebrick">Product Design</a></h3>
               <p>Industry Experts in Mechanical Drawing, Hardware Circuit Designing and Ruggedisation.</p>
+              </div>
+             
             </div>
             <!-- End Image Service Box 1 -->
 
             <!-- Start Image Service Box 2 -->
             <div class="col-md-4 image-service-box service-card">
               <img class="img-thumbnail" src="img/services/internet-things.jpg" alt="" />
+              <div class="box1">
               <h3><a href="" style="color:firebrick">Internet Of Things (IOT)</a></h3>
               <p>Control the home appliances, other items embedded with electronics and network connectivity which
                 enables
-                these objects to connect and exchange data.</p>
+                these objects to connect and exchange data.</p></div>
+             
             </div>
             <!-- End Image Service Box 2 -->
 
             <!-- Start Image Service Box 3 -->
             <div class="col-md-4 image-service-box service-card">
               <img class="img-thumbnail" src="img/services/pcb.jpg" alt="" />
+              <div class="box1">
               <h3><a href="" style="color:firebrick">PCB Designing</a></h3>
               <p>Owing to the rich industrial experience and expertise of the domain, excellent providing PCB Design
                 Services are offered.</p>
+              </div>
+              
             </div>
             <!-- End Image Service Box 3 -->
-
+         
             <!-- Start Image Service Box 4 -->
             <div class="col-md-4 image-service-box service-card">
               <img class="img-thumbnail" src="img/services/testing.jpg" alt="" />
+              <div class="box1">
               <h3><a href="" style="color:firebrick">Hardware And Software Testing</a></h3>
-              <p>Hardware & Software: Testing, Debugging and Integration.</p>
+              <p>Hardware & Software: Testing, Debugging and Integration.</p></div>
+              
             </div>
             <!-- End Image Service Box 4 -->
 
             <!-- Start Image Service Box 5 -->
             <div class="col-md-4 image-service-box service-card">
               <img class="img-thumbnail" src="img/services/custom.jpg" alt="" />
-              <h3><a href="" style="color:firebrick">Customized Solutions</a></h3>
-              <p>Quick Turnaround Time, Proactive Approach and Pragmatic Solutions for Customer Satisfaction.</p>
+              <div class="box1">
+                <h3><a href="" style="color:firebrick">Customized Solutions</a></h3>
+                <p>Quick Turnaround Time, Proactive Approach and Pragmatic Solutions for Customer Satisfaction.</p>
+              </div>
+             
             </div>
             <!-- End Image Service Box 5 -->
 
             <!-- Start Image Service Box 6 -->
             <div class="col-md-4 image-service-box service-card">
               <img class="img-thumbnail" src="img/services/software.jpg" alt="" />
-              <h3><a href="" style="color:firebrick">Software Development & Testing</a></h3>
-              <p>BootLoader/Firmware Development, Kernel Customization and Multi-Platform Application Designing.</p>
+              <div class="box1">
+                <h3><a href="" style="color:firebrick">Software Development & Testing</a></h3>
+                <p>BootLoader/Firmware Development, Kernel Customization and Multi-Platform Application Designing.</p>
+              </div>
+              
             </div>
             <!-- End Image Service Box 6 -->
 
@@ -574,7 +556,7 @@
           <!-- Divider -->
           <div class="hr1" style="margin-bottom:45px;"></div>
 
-          <div class="row">
+          <div class="row1">
 
             <div class="col-md-4">
 
@@ -726,11 +708,11 @@
 
 
     <footer class="new_footer_area bg_color" style="padding-top: 75px;
-  border-top: 3px solid #5555550a;
-  color: #c1c1c1;">
+          border-top: 3px solid #5555550a;
+          color: #c1c1c1;">
       <div class="new_footer_top">
         <div class="container">
-          <div class="row">
+          <div class="row1">
             <div class="col-lg-3 col-md-6">
               <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
                 style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
@@ -739,16 +721,15 @@
                 <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
                   <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
                   <button class="btn btn_get btn_get_two" type="submit">Send</button>
-                  <p class="mchimp-errmessage" style="display: none;"></p>
-                  <p class="mchimp-sucmessage" style="display: none;"></p>
+    
                 </form>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
               <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
                 style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-                <h3 class="f-title f_600 t_color f_size_18">Corporate Information!</h3>
-                <ul class="list-unstyled f_list">
+                <h3 class="f-title f_600 t_color f_size_18 mt-10">Corporate Information!</h3>
+                <ul class="list-unstyled f_list ">
                   <li><a href="Home.html">Home</a></li>
                   <li><a href="About-Us.html">About Us</a></li>
                   <li><a href="Products.html">Products</a></li>
@@ -760,7 +741,7 @@
             <div class="col-lg-3 col-md-6">
               <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
                 style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                <h3 class="f-title f_600 t_color f_size_18">Reach Us!</h3>
+                <h3 class="f-title f_600 t_color f_size_18 mt-10">Reach Us!</h3>
                 <h5 style="color: #858383;">We are dedicated to the <br> satisfaction of our customers. <br> Have a
                   question, feel free <br> to contact us!</h5>
               </div>
