@@ -5941,7 +5941,20 @@ ul.footer-nav li a:hover {
   background-position: 50% 0px; 
   background-attachment: absolute; 
 }
+  .text-contentr .full-text,
+  .text-contentl .full-text {
+  	display: none;
+  }
 
+  .text-contentr.expanded .full-text,
+  .text-contentl.expanded .full-text {
+  	display: block;
+  }
+
+  .text-contentr.expanded .short-text,
+  .text-contentl.expanded .short-text {
+  	display: none;
+  }
 .parallax-text-container-1 .parallax-text-item {
   padding:120px 0px;
   text-align:center;
