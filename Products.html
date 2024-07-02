@@ -325,13 +325,13 @@
     background: #f6f6f6;
     border-radius: 24px 24px 24px 48px;
     padding: 48px 48px 48px 308px;
-    margin: 84px 0;
+    margin: 84px 100px;
     width: 60vw;
     max-width: 920px;
     min-width: 640px;
     display: flex;
     flex-direction: row;
-    align-self: flex-start;
+   left:150px;
     position: relative;
     box-shadow:
       5px 0 0 0 fade(#ccc, 30%),
@@ -341,9 +341,9 @@
     .text-contentl {
       display: flex;
       flex-direction: column;
-      width: calc(60vw - 192px);
+      width: calc(60vw - 102px);
       position: relative;
-      left: 300px;
+      left: 140px;
 
       h3 {
         margin: 0;
@@ -369,6 +369,11 @@
           background: #000;
           color: white
         }
+      }
+    }
+    @media(max-width:361px){
+      .text-contentl{
+        left:10px;
       }
     }
 
@@ -844,107 +849,163 @@
     </div>
 
     <!-- End Page Banner -->
-    <article style="margin-top: 80px; margin-bottom: 50px;">
-      <section class="cardr">
-        <div class="text-contentr">
-          <h3>PBX (Private Branch Exchange)</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ea obcaecati repellat, error
-            optio.</p>
-          <a href="#">Read more</a>
-        </div>
-        <div class="visualr">
-          <img src="./img/products/pbx.jpg" alt="" />
-        </div>
-      </section>
+ 
+    <section class="cardr">
+      <div class="text-contentr">
+        <h3>PBX (Private Branch Exchange)</h3>
+        <p class="short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.</p>
+        <p class="full-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+      <div class="visualr">
+        <img src="./img/products/pbx.jpg" alt="PBX Image" />
+      </div>
+    </section>
+  
+    <section class="cardl">
+      <div class="text-contentl">
+        <h3>IP-Phones</h3>
+        <p class="short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.</p>
+        <p class="full-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+      <div class="visuall">
+        <img src="./img/products/pbxsystem.jpg" alt="" />
+      </div>
+    </section>
+  
+    <section class="cardr">
+      <div class="text-contentr">
+        <h3>Radio Inter-OP Solutions</h3>
+        <p class="short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.</p>
+        <p class="full-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+      <div class="visualr">
+        <img src="./img/products/radio.png" alt="" />
+      </div>
+    </section>
+  
+    <section class="cardl">
+      <div class="text-contentl">
+        <h3>Redundant Radio Connection over IP Network & GM Network</h3>
+        <p class="short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua.</p>
+        <p class="full-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+      <div class="visuall">
+        <img src="./img/products/radio1.png" alt="" />
+      </div>
+    </section>
+  
+    <section class="cardr">
+      <div class="text-contentr">
+        <h3>Marine Communication Systems</h3>
+      <p class="short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.</p>
+      <p class="full-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+      <div class="visualr">
+        <img src="./img/products/marine.jpg" alt="" />
+      </div>
+    </section>
+  
+    <section class="cardl">
+      <div class="text-contentl">
+        <h3>INTELligent Power Supplies</h3>
+      <p class="short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.</p>
+      <p class="full-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+      <div class="visuall">
+        <img src="./img/products/firm.jpg" alt="" />
+      </div>
+    </section>
+  
+    <section class="cardr">
+      <div class="text-contentr">
+        <h3>iPureair</h3>
+      <p class="short-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.</p>
+      <p class="full-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+      <div class="visualr">
+        <img src="./img/products/ipure.jpg" alt="" />
+      </div>
+    </section>
+  </article>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const readMoreLinks = document.querySelectorAll('.read-more');
 
-      <section class="cardl">
-        <div class="text-contentl">
-          <h3>IP-Phones</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ea obcaecati repellat, error
-            optio.</p>
-          <a href="#">Read more</a>
-        </div>
-        <div class="visuall">
-          <img src="./img/products/pbxsystem.jpg" alt="" />
-        </div>
-      </section>
-
-      <section class="cardr">
-        <div class="text-contentr">
-          <h3>Radio Inter-OP Solutions</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ea obcaecati repellat, error
-            optio.</p>
-          <a href="#">Read more</a>
-        </div>
-        <div class="visualr">
-          <img src="./img/products/radio.png" alt="" />
-        </div>
-      </section>
-
-      <section class="cardl">
-        <div class="text-contentl">
-          <h3>Redundant Radio Connection over IP Network & GM Network</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ea obcaecati repellat, error
-            optio.</p>
-          <a href="#">Read more</a>
-        </div>
-        <div class="visuall">
-          <img src="./img/products/radio1.png" alt="" />
-        </div>
-      </section>
-      <section class="cardr">
-        <div class="text-contentr">
-          <h3>Marine Communication Systems</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ea obcaecati repellat, error
-            optio.</p>
-          <a href="#">Read more</a>
-        </div>
-        <div class="visualr">
-          <img src="./img/products/marine.jpg" alt="" />
-        </div>
-      </section>
-
-      <section class="cardl">
-        <div class="text-contentl">
-          <h3>INTELligent Power Supplies</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ea obcaecati repellat, error
-            optio.</p>
-          <a href="#">Read more</a>
-        </div>
-        <div class="visuall">
-          <img src="./img/products/firm.jpg" alt="" />
-        </div>
-      </section>
-      <section class="cardr">
-        <div class="text-contentr">
-          <h3>iPureair</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum temporibus ea obcaecati repellat, error
-            optio.</p>
-          <a href="#">Read more</a>
-        </div>
-        <div class="visualr">
-          <img src="./img/products/ipure.jpg" alt="" />
-        </div>
-      </section>
-      <script>
-        document.querySelectorAll('section.cardl, section.cardr').forEach(card => {
-          card.addEventListener('mousemove', (e) => {
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left - rect.width / 2;
-            const y = e.clientY - rect.top - rect.height / 2;
-            const rotateX = (-y / rect.height) * 15;
-            const rotateY = (x / rect.width) * 15;
-
-            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-          });
-
-          card.addEventListener('mouseleave', () => {
-            card.style.transform = `perspective(1000px) rotateX(0) rotateY(0)`;
-          });
+      readMoreLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          const textContent = this.closest('.text-contentr') || this.closest('.text-contentl');
+          const fullText = textContent.querySelector('.full-text');
+          if (fullText) {
+            textContent.classList.toggle('expanded');
+            this.textContent = textContent.classList.contains('expanded') ? 'Read less' : 'Read more';
+          } else {
+            // If there's no full-text paragraph, do nothing or handle accordingly
+            console.log('No full-text paragraph found');
+          }
         });
-      </script>
+      });
 
-    </article>
+      document.querySelectorAll('section.cardl, section.cardr').forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left - rect.width / 2;
+          const y = e.clientY - rect.top - rect.height / 2;
+          const rotateX = (-y / rect.height) * 15;
+          const rotateY = (x / rect.width) * 15;
+
+          card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+        });
+
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = `perspective(1000px) rotateX(0) rotateY(0)`;
+        });
+      });
+    });
+  </script>
 
 
     <!-- Start Footer Section -->
