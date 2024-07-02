@@ -53,7 +53,7 @@ $(document).ready(function ($) {
   /*----------------------------------------------------*/
   /*  Back Top Link
   /*----------------------------------------------------*/
-  
+
     var offset = 200;
     var duration = 500;
     $(window).scroll(function() {

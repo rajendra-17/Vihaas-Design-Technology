@@ -482,10 +482,4 @@
 		display:block;
 	}
 }
-/* SlickMenu responsive */
-@media screen and (min-width: 768px) {
 
-  .slicknav_menu{
-    display: none;
-  }
-}

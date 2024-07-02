@@ -25,7 +25,7 @@
   <meta name="author" content="Vihaas Design Technologies">
 
   <!-- Bootstrap CSS  -->
-  <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">
+ 
 
   <!-- Revolution Slider -->
   <link rel="stylesheet" href="css/settings.css" type="text/css" media="screen">
@@ -79,43 +79,10 @@
 </head>
 
 <style>
-  .blink {
-    animation: blinker 1s linear infinite;
-    color: #bb0a1e;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: sans-serif;
-  }
 
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  }
 
-  .blink-one {
-    animation: blinker-one 2s linear infinite;
-  }
 
-  @keyframes blinker-one {
-    0% {
-      opacity: 0;
-    }
-  }
 
-  .blink-two {
-    animation: blinker-two 2.5s linear infinite;
-    color: #006400;
-    font-size: 32px;
-    font-weight: bold;
-    font-family: sans-serif;
-  }
-
-  @keyframes blinker-two {
-    100% {
-      opacity: 0;
-    }
-  }
 
   .makeInIndia-container {
     display: inline-block;
@@ -142,101 +109,64 @@
 
   .image-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    object-fit: cover;
+    width: 100vw;
+    height: 142vh;
+    justify-content: flex-start;
+    align-items: center; 
     margin-top: 20px;
+    margin-left: 0;
+    background-size: contain;
+ 
+    background-repeat: no-repeat;
+   
+   
+    background-image: url("./img/bg2.jpg") ;
   }
-
-  .image-container img {
-    max-width: 100%;
-    height: 50%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  .image-container .topleft{
+    margin-top: 250px;
+    font-size: xx-large;
+    font-weight: 600
+    
   }
-
-  .image-container img {
-    flex: 1 1 calc(33.333% - 20px);
-    /* Adjusts the width to be 1/3 of the container with margin consideration */
-    margin: -20px;
+  .image-container .topright{
+     font-size: large;
+    font-weight: 600;
+    margin-top: 15px;
   }
-
-  @media (max-width: 768px) {
-    .image-container img {
-      flex: 1 1 calc(50% - 20px);
-      /* Adjusts the width to be 1/2 of the container with margin consideration */
+  @media  (max-width:361px){
+    .image-container{
+      height: 100%;
+      margin-top: 100px;
+      margin-left: -8px;
+      background-position: bottom;
+      background-image: none;
+      object-fit: cover;
+    }
+    .image-container .topleft{
+      text-align: center;
+        font-size: large;
+        padding: 2px;
+        margin-top: 150px;
+    }
+    .image-container .topright{
+      text-align: center;
+      font-size: small;
+      margin-top: ;
+      padding:3px
     }
   }
+ 
 
-  @media (max-width: 480px) {
-    .image-container img {
-      flex: 1 1 calc(100% - 20px);
-      /* Adjusts the width to be 100% of the container with margin consideration */
-    }
-  }
+  
 
-  .topleft {
-    position: absolute;
-    top: 430px;
-    font-size: 50px;
-    color: #000;
-    background-color: rgba(243, 243, 243, 0.5);
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-family: "Baloo Bhaijaan 2", sans-serif;
-  }
+ 
 
-  .topright {
-    position: absolute;
-    top: 470px;
-    font-size: 25px;
-    color: #000;
-    background-color: rgba(243, 243, 243, 0.5);
+ 
 
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-family: "Baloo Bhaijaan 2", sans-serif;
-  }
-
-
-  @media (max-width: 768px) {
-    .topleft {
-      top: 200px;
-      /* Adjust based on the new layout */
-      font-size: 30px;
-      /* Adjust the font size as needed */
-    }
-  }
-
-  @media (max-width: 480px) {
-    .topleft {
-      top: 100px;
-      /* Adjust based on the new layout */
-      font-size: 20px;
-      /* Adjust the font size as needed */
-    }
-  }
-
-  @media (max-width: 768px) {
-    .topright {
-      top: 200px;
-      /* Adjust based on the new layout */
-      font-size: 20px;
-      /* Adjust the font size as needed */
-    }
-  }
-
-  @media (max-width: 480px) {
-    .topright {
-      top: 100px;
-      /* Adjust based on the new layout */
-      font-size: 10px;
-      /* Adjust the font size as needed */
-    }
-  }
+ 
 
 
 
@@ -244,89 +174,55 @@
 
   /* Google Fonts(Poppins) */
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-  /* 
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f4f4f4;
-} */
+   
 
   .wrapper {
-    max-width: 100%;
-  }
-
-  .wrapper .swiper-wrapper {
     width: 100%;
-    height: 35em;
-    display: flex;
-    align-items: center;
-
+    overflow-y: hidden;
+    margin-bottom: 20px;
   }
 
-  .wrapper .swiper-wrapper .card {
-    width: 20em;
-    height: 90%;
-    background: #fff;
-    border-radius: 2em;
-    box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
-    padding: 2em 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 2em;
-  }
 
-  /* .card .image {
-  width: 10em;
-  height: 10em;
-  border-radius: 5%;
-  border: 1px solid #2b2235;
-  padding: 3px;
-  margin-bottom: 2em;
-} */
 
-  .card .image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-    object-fit: cover;
-  }
+.card{
+    width: 15vw;
+  
+  
+}
+@media(max-width:361px){
+    .card{
+      width: 20%;
+      height: 30vh;
+     
+  
+    }
+    .card .content .title{
+        font-size: 10px;
+    }
+}
+.card .image img{
+  border-radius: 10px;
+}
 
-  .card .content {
-    margin-top: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
   .card .content .title {
     margin-top: 10px;
     font-size: 1.5em;
     font-weight: 600;
-    position: relative;
+    text-align: center;
+    /*position: relative;*/
     top: 0.2em;
   }
 
-  /* .card .content .name {
-  color: #4070f4;
-} */
+ 
 
   .card .content .desc {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 1em 0;
   }
 
-  /* .card .content .btn {
+   .card .content .btn {
   background: #4070f4;
   color: #fff;
   font-size: 1em;
@@ -336,11 +232,38 @@ body {
   padding: 0.5em;
   border-radius: 0.5em;
   cursor: pointer;
-} */
-
-  ::-webkit-scrollbar {
-    width: 1px;
+} 
+ 
+  .card .content .title {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    position: relative;
+    top: 0.2em;
   }
+
+   .card .content .name {
+  color: #4070f4;
+} 
+
+  .card .content .desc {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 1em 0;
+  }
+
+   .card .content .btn {
+  background: #4070f4;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  cursor: pointer;
+} 
+
 
 
 
@@ -352,8 +275,7 @@ body {
   :root {
     --marquee-width: 80vw;
     --marquee-height: 20vh;
-    /* --marquee-elements: 12; */
-    /* defined with JavaScript */
+
     --marquee-elements-displayed: 5;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
     --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
@@ -395,9 +317,7 @@ body {
     animation: scrolling var(--marquee-animation-duration) linear infinite;
   }
 
-  /* .marquee-content:hover {
-  animation-play-state: paused;
-} */
+ 
   @keyframes scrolling {
     0% {
       transform: translateX(0);
@@ -406,7 +326,7 @@ body {
     100% {
       transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements)));
     }
-  }
+  } 
 
   .marquee-content li {
     display: flex;
@@ -553,8 +473,7 @@ body {
     display: inline-block;
     background: #ebeef5;
     text-align: center;
-    -webkit-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
+
     transition: all 0.2s linear;
   }
 
@@ -722,130 +641,92 @@ body {
 
       <!-- Start  Logo & Naviagtion  -->
       <div class="navbar navbar-default navbar-top" role="navigation" data-spy="affix" data-offset-top="1"
-        style="  height: 11%;">
+        style="  height: 15%;">
         <div class="container">
           <div class="navbar-header">
             <!-- Stat Toggle Nav Link For Mobiles -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="fa fa-bars"></i>
-            </button>
+          <button type="button" class="button" id="menu-button">
+            <i class="fa fa-bars"></i>
+          </button>
             <!-- End Toggle Nav Link For Mobiles -->
 
 
-
-            <a class="navbar-brand" href="Home">
-              <img alt="" src="img/logo8.png" class="" style="position: fixed ; left: 80px;">
-            </a>
-
-            <a class="navbar-brand" href="Home">
-              <img style="margin-right: 200px;
-                margin-bottom: 1px;
-                height: 7rem;
-                left: 470px;
-                position: fixed;" class="alignleft" src="img/iso.png">
-            </a>
-
-            <!-- <a class="navbar-brand" href="Home">
-              <img style="margin-right: 200px;
-                  margin-bottom: 1px;
-                  height: 7rem;
-                  position: fixed;
-                  right: 905px;
-                  top: 45px;" class="alignleft" src="img/flag.png">
-            </a> -->
-
-
-
-          </div>
-
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right" style="left: 770px;">
-              <li>
-                <a class="active" href="Home">Home</a>
-              </li>
-              <li>
-              <li>
-                <a href="About-Us">About Us</a>
-              </li>
-              <li>
-                <a href="Products">Products</a>
-              </li>
-              <li>
-                <a href="Services">Services</a>
-              </li>
-              <li>
-                <a href="Contact">Contact</a>
-              </li>
-            </ul>
-            <!-- End Navigation List -->
-          </div>
-          <div>
-            <a class="navbar-brand" href="Home">
-              <img style="margin-right: 135px;
-              margin-bottom: 1px;
-              height: 7rem;
-              position: fixed;
-              right: 275px;
-              top: 27px;" class="alignleft" src="img/flag.png">
+          <div class="logo">
+           <a class="image-link" href="/Home.html">
+              <img  alt="" src="img/logo8.png" >
             </a>
           </div>
-          <div>
-            <a class="navbar-brand" href="Home">
-              <img style="margin-right: 185px;
-              margin-bottom: 1px;
-              height: 7rem;
-              position: fixed;
-              right: 125px;
-              top: 30px;" class="alignleft" src="img/make in india.png">
+           <!--  here -->
+            <div class="navbar-collapse collapse navi">
+            
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="active" href="/Home.html">Home</a></li>
+                <li><a href="/About-Us.html">About Us</a></li>
+                <li><a href="/Products.html">Products</a> </li>
+                <li><a href="/Services.html">Services</a></li>
+                <li><a href="/Contact.html">Contact</a> </li>
+              </ul>
+            
+            </div>
+          <div class="iso">
+          <a class="image-link" href="/Home.html">
+              <img class="inner-image"  src="img/iso.png">
             </a>
-            <div class="blink" style="width: 248px;
-            height: 7rem;
-            padding: 2px;
-            text-align: center;
-            line-height: 50px;
-            position: relative;
-            left: 1210px;
-            margin-top: -48px;"><span style="font-size: 17px;
-		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-		color: rgb(255, 108, 10);
-		animation: blink 1s linear infinite;">A Make in India Initiative</span></div>
-
           </div>
 
+          
+          <div class="flag">
+            <a class="image-link" href="Home">
+              <img class="inner-image" src="img/flag.png">
+            </a>
+          </div>
+          <div class="makeinindia">
+            <a class="image-link" href="Home">
+              <img class="inner-image" src="img/make in india.png">
+            </a>
+          </div>
+       
+       
         </div>
 
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-          <li>
-            <a class="active" href="Home">Home</a>
-          </li>
-          <li>
-            <a href="About-Us">About Us</a>
-          </li>
-          <li>
-            <a href="Products">Products</a>
-          </li>
-          <li>
-            <a href="Services">Services</a>
-          </li>
 
-          <li>
-            <a href="Contact">Contact</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
+          </div>
+        
+          </div>
+
+
+        </div>
+        
+        </div>
+    
+    
+    
+        </div>
       </div>
-
+    <!-- Mobile Menu Start -->
+    
+      <!-- Mobile Menu End -->
 
       <!-- End Header Logo & Naviagtion -->
+      
     </header>
+    <ul class="mobile-menu" id="mobile-menu">
+      <li><a class="active" href="/Home.html">Home</a></li>
+      <li><a href="/About-Us.html">About Us</a></li>
+      <li><a href="/Products.html">Products</a> </li>
+      <li><a href="/Services.html">Services</a></li>
+      <li><a href="/Contact.html">Contact</a> </li>
+    </ul>
+    <script>
+      document.getElementById('menu-button').addEventListener('click', function () {
+        var mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('show');
+      });
+    </script>
     <!-- End Header Section -->
 
     <div class="image-container">
-      <img src="./img/bg2.jpg" alt="Image 1" style="width: 341px;
-      height: 805px;
-      object-fit: cover;
-      opacity: .65;">
+    
       <div class="topleft"> Himachal's First Telecommunications R&D Company </div>
       <div class="topright">Designing Unique Solutions with State-of-the-Art Technologies for Secure Communications
       </div>
@@ -854,95 +735,107 @@ body {
 
 
     <!-- Start Services Section -->
-    <div class="section service">
-      <div class="container">
-        <div class="row">
+          
+            <
+     
 
-          <h1 class="text-center animated2">Features</h1>
+         
+<div class="section service">
+  <div class="container">
+    <h1 class="text-center animated2">Features</h1>
 
-          <!-- Start Service Icon 1 -->
-          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="01">
-            <div class="service-icon">
-              <i class="fa fa-power-off icon-large"></i>
-            </div>
-            <div class="service-content">
-              <h4><strong>Power Efficient</strong></h4>
-              <p>Use electricity in most efficient way.</p>
-            </div>
-          </div>
-          <!-- End Service Icon 1 -->
-
-          <!-- Start Service Icon 2 -->
-          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="02">
-            <div class="service-icon">
-              <i class="fa fa-user icon-large"></i>
-            </div>
-            <div class="service-content">
-              <h4><strong>Customer Oriented</strong></h4>
-              <p>Comprehensive understanding of customer needs.</p>
-            </div>
-          </div>
-          <!-- End Service Icon 2 -->
-
-          <!-- Start Service Icon 3 -->
-          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="03">
-            <div class="service-icon">
-              <i class="fa fa-pencil-square-o icon-large"></i>
-            </div>
-            <div class="service-content">
-              <h4><strong>Easy to Customize</strong></h4>
-              <p>Add more features without replacing your old system.</p>
-            </div>
-          </div>
-          <!-- End Service Icon 3 -->
-
-          <!-- Start Service Icon 4 -->
-          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="04">
-            <div class="service-icon">
-              <i class="fa fa-inr icon-large"></i>
-            </div>
-            <div class="service-content">
-              <h4><strong>Low Cost</strong></h4>
-              <p>Devices at lowest cost that fits in your budget.</p>
-            </div>
-          </div>
-          <!-- End Service Icon 4 -->
-
-          <!-- Start Service Icon 5 -->
-          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="05">
-            <div class="service-icon">
-              <i class="fa fa-desktop icon-large"></i>
-            </div>
-            <div class="service-content">
-              <h4><strong>Creative Design</strong></h4>
-              <p>Easy and fast maintenance services.</p>
-            </div>
-          </div>
-          <!-- End Service Icon 5 -->
-
-          <!-- Start Service Icon 6 -->
-          <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="06">
-            <div class="service-icon">
-              <i class="fa fa-cloud icon-large"></i>
-            </div>
-            <div class="service-content">
-              <h4><strong>Quality and Reliability</strong></h4>
-              <p>Strictly maintain the international quality standards.</p>
-            </div>
-          </div>
-          <!-- End Service Icon 6 -->
+    <!-- First Row -->
+    <div class=" first-row"> <!-- Added class first-row -->
+      <!-- Start Service Icon 1 -->
+      <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="01">
+        <div class="service-icon">
+          <i class="fa fa-power-off icon-large"></i>
         </div>
-        <!-- .row -->
+        <div class="service-content">
+          <h4><strong>Power Efficient</strong></h4>
+          <p>Use electricity in most efficient way.</p>
+        </div>
       </div>
-      <!-- .container -->
+      <!-- End Service Icon 1 -->
+
+      <!-- Start Service Icon 2 -->
+      <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="02">
+        <div class="service-icon">
+          <i class="fa fa-user icon-large"></i>
+        </div>
+        <div class="service-content">
+          <h4><strong>Customer Oriented</strong></h4>
+          <p>Comprehensive understanding of customer needs.</p>
+        </div>
+      </div>
+      <!-- End Service Icon 2 -->
+
+      <!-- Start Service Icon 3 -->
+      <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="03">
+        <div class="service-icon">
+          <i class="fa fa-pencil-square-o icon-large"></i>
+        </div>
+        <div class="service-content">
+          <h4><strong>Easy to Customize</strong></h4>
+          <p>Add more features without replacing your old system.</p>
+        </div>
+      </div>
+      <!-- End Service Icon 3 -->
     </div>
+    <!-- End First Row -->
+
+    <!-- Second Row -->
+    <div class=" second-row"> <!-- Added class second-row -->
+      <!-- Start Service Icon 4 -->
+      <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="04">
+        <div class="service-icon">
+          <i class="fa fa-inr icon-large"></i>
+        </div>
+        <div class="service-content">
+          <h4><strong>Low Cost</strong></h4>
+          <p>Devices at lowest cost that fits in your budget.</p>
+        </div>
+      </div>
+      <!-- End Service Icon 4 -->
+
+      <!-- Start Service Icon 5 -->
+      <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="05">
+        <div class="service-icon">
+          <i class="fa fa-desktop icon-large"></i>
+        </div>
+        <div class="service-content">
+          <h4><strong>Creative Design</strong></h4>
+          <p>Easy and fast maintenance services.</p>
+        </div>
+      </div>
+      <!-- End Service Icon 5 -->
+
+      <!-- Start Service Icon 6 -->
+      <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="06">
+        <div class="service-icon">
+          <i class="fa fa-cloud icon-large"></i>
+        </div>
+        <div class="service-content">
+          <h4><strong>Quality and Reliability</strong></h4>
+          <p>Strictly maintain the international quality standards.</p>
+        </div>
+      </div>
+      <!-- End Service Icon 6 -->
+    </div>
+    <!-- End Second Row -->
+
+  </div>
+  <!-- .container -->
+</div>
+<!-- End Services Section -->
+
     <!-- End Services Section -->
 
     <div style="display: flex; justify-content: center; margin-top: 60px; margin-bottom: 6px;">
-      <H3 style="font-size: 50px; color: #000;">Our Areas of Expertise</H3>
+      <H3 class="expertise">Our Areas of Expertise</H3>
     </div>
     <div style="display: flex; justify-content: center; margin-top: 15px; margin-bottom: 25px;">
-      <H3 style="font-size: 10px; color: #414141; font-style: normal;">To Design and Develop unique products and systems
+      <H3 class="designdev">To Design and Develop unique products and systems
         by making
         use of the state of art technologies</H3>
     </div>
@@ -1195,7 +1088,7 @@ body {
       color: #c1c1c1;">
         <div class="new_footer_top">
           <div class="container">
-            <div class="row">
+            <div class="row1">
               <div class="col-lg-3 col-md-6">
                 <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
                   style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
@@ -1204,16 +1097,15 @@ body {
                   <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
                     <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
                     <button class="btn btn_get btn_get_two" type="submit">Send</button>
-                    <p class="mchimp-errmessage" style="display: none;"></p>
-                    <p class="mchimp-sucmessage" style="display: none;"></p>
+                   
                   </form>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6">
                 <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
                   style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-                  <h3 class="f-title f_600 t_color f_size_18">Corporate Information!</h3>
-                  <ul class="list-unstyled f_list">
+                  <h3 class="f-title f_600 t_color f_size_18 mt-10">Corporate Information!</h3>
+                  <ul class="list-unstyled f_list ">
                     <li><a href="Home.html">Home</a></li>
                     <li><a href="About-Us.html">About Us</a></li>
                     <li><a href="Products.html">Products</a></li>
@@ -1225,7 +1117,7 @@ body {
               <div class="col-lg-3 col-md-6">
                 <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
                   style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                  <h3 class="f-title f_600 t_color f_size_18">Reach Us!</h3>
+                  <h3 class="f-title f_600 t_color f_size_18 mt-10">Reach Us!</h3>
                   <h5 style="color: #858383;">We are dedicated to the <br> satisfaction of our customers. <br> Have a
                     question, feel free <br> to contact us!</h5>
                 </div>
